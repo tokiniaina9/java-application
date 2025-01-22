@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="projetM2.jnlp">
+  <information>
+    <title>projetM2</title>
+    <vendor>Toky</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" java-vm-args="-Djava.library.path="D:\VIDEO\tuto\java\3d\video\game 4\lwjgl\lwjgl-2.9.3\native\windows" "  href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib\jinput.jar" size="214859" download="eager" />
+    <jar href="lib\lwjgl.jar" size="1053471" download="eager" />
+    <jar href="lib\lwjgl_util.jar" size="173911" download="eager" />
+    <jar href="projetM2.jar" size="430268" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="projetM2" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="mg.toky.projet3D.main.ProjetM2"  name="projetM2" />
+  <update check="always"/>
+</jnlp>
